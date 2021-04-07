@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+div img {
+width: 100%;
+}
+
+html {
+  font-size: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+ 
+  
+ 
+}
+body {
+  
+  font-size: 1.6rem;
+ 
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background: #F7F7F7;
+}
+
+p {
+ font-size: 1,6rem;
+}
+ul { list-style: none;}
+a { text-decoration: none; color: black;}
+
+main {
+max-width: 1100px;
+margin: auto;
+}
+
+
+.mySlides {display:none;}
+
+.h1 {font-size: 4rem;}
+/* tieu de */
+
+.a1 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .a1b {
+flex: 33%;
+} */
+
+.b {
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: 2fr 5fr 2fr;
+padding-top: 2rem;
+
+}
+.b2 { max-width: 100px;}
+
+.c {
+background-color:rgb(35,47,62);
+color:#FFFFFF;
+}
+
+.e {
+display: flex;
+align-items: center;
+}
+
+.f {
+margin-top: 1rem;
+display: grid;
+grid-template-columns: 1fr 3fr;
+
+}
+
+.hide {
+display: none;
+}
+
+.aa a:hover  { color: #FFFFFF;}
+
+.test:hover  .hide  { display: block;}
+
+
+.test:hover .posi { 
+position: absolute;
+background-color: bisque;
+left: 37.7rem;
+width: 600px;
+height: 150px;
+top:12.4rem;
+
+}
+
+
+.f1a { padding-left: 2rem;}
+
+.test { padding: 0.7rem 0 0.7rem 0;}
+
+.p1 { font-size: 2rem;
+line-height: 18px;
+font-weight: 400;
+
+
+}
+
+.a0 {
+border-bottom: 1px solid gray;
+display: flex;
+justify-content: space-between; 
+padding: 1rem;
+
+}
+.b input[type=search] { 	
+width: max-content;
+width: 80%;
+height: 3rem;
+font-size: 1.6rem;
+padding-left: 1rem;
+
+}
+
+.b button { height: 3rem; }
+
+.b a { color: whitesmoke; text-decoration: underline ;
+font-size: 1.3rem; 
+}
+.b3 {
+ display: flex;
+ margin-top: 1.5rem;
+ 
+}
+.b3 a {
+  padding-left: 2rem;
+ 
+}
+
+.rating span {
+color: #f0c040;
+margin: 0.01rem;}
+
+
+@media (max-width: 780px) {
+
+.a1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+
+}
+
+.b2 { max-width: 40px;}
+.f2 { display: none;}
+.f {
+ 
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+}
+@media (max-width: 400px) {
+
+.a1 {
+  display: grid;
+  grid-template-columns: 1fr  ;
+}
+
+.b2 { max-width: 30px;}
+
+.f1 {
+  display: none;
+  
+ 
+  
+}
+.h1 {font-size: 2rem;}
+.b3 { display: none;}
+.b {display: block;}
+
+}
+
+
+
+.a {display: flex;  background-color: white; padding: 10px;}
+.a3 { margin-left: 20px; display: flex; justify-content: space-between; width: 70%;}
+
+
+.a4 { font-size: 24px; font-weight: 700;}
+.a5 { text-decoration: none; color:rgb(13, 92, 182); padding-left: 10px;}
+
+
+form {border: 3px solid #f1f1f1; border-radius: 5px;}
+
+input[type=text], input[type=password] , input[type=email],input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.phim1 {
+  background-color:#f0c040;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: solid 1px gray;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.form1 {
+
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.form0 {
+    max-width:400px ; margin: auto;
+}
+    .flex1 {display: flex; justify-content: space-between;}
+
+
+    .order1 {
+      background-color: #FFFFFF;
+      margin-top: 10px;
+     
+      border: solid rgba(170, 164, 164, 0.637) 1px;
+      padding: 20px;
+      border-radius: 5px;
+  }
+
+  .order2 {display: flex; justify-content: space-between;
+      border-bottom: 1px solid  rgba(170, 164, 164, 0.637); 
+      padding-top: 10px;
+      padding-bottom: 20px;
+
+  }
+
+  .h44 {border-bottom: 1px solid  rgba(170, 164, 164, 0.637); 
+  margin-top: 0;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  text-align: right;
+  }
+  .badge {
+    position: relative;
+    left: -84px;
+    top:-12px;
+    height: 20px;
+    background-color: #f02020;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 0.0rem 0.5rem;
+    font-size: 1.4rem;
+    margin-left: 0.2rem;
+  }
+.gio {padding-left: 20px;}
+  /* .p12 { position: relative;} */
+  .quaylai {text-decoration: underline; color: blue;}
+
+  .customers {   
+    width: 100%;
+    border-collapse: collapse;
+   ;}
+
+  
